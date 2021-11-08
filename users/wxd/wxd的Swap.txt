@@ -1,0 +1,6 @@
+vovid Swap(int *a,int *b)
+{
+	int t=*a;
+	int *a=*b;
+	int *b=t;
+}
