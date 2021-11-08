@@ -1,0 +1,17 @@
+#include<stdio.h>
+ void mySwap(int*a, int*b)
+ {
+     int t=*a;
+     *a=*b;
+     *b=t;
+ }
+
+ int main()
+ {
+     int a = 10;
+     int b = 20;
+     mySwap(&a,&b);
+     printf("%d %d",a,b);
+
+     return 0;
+ }
